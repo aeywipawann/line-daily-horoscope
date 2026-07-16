@@ -3,8 +3,8 @@ services:
     name: line-daily-horoscope
     runtime: node
     plan: free
-    buildCommand: npm ci && npm run build
-    startCommand: npm run db:migrate && npm run db:seed && npm start
+    buildCommand: pnpm install --frozen-lockfile && pnpm run build
+startCommand: pnpm run db:migrate && pnpm run db:seed && pnpm start
     healthCheckPath: /health
     envVars:
       - key: NODE_ENV
