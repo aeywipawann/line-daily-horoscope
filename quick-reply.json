@@ -1,0 +1,26 @@
+{
+  "type": "text",
+  "text": "เลือกวันเกิดหรือราศีของคุณได้เลย ✨",
+  "quickReply": {
+    "items": [
+      {
+        "type": "action",
+        "action": {
+          "type": "datetimepicker",
+          "label": "เลือกวันเกิด",
+          "data": "action=set_birthdate",
+          "mode": "date"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "postback",
+          "label": "ราศีเมษ",
+          "data": "action=set_zodiac&zodiac=aries&request=daily",
+          "displayText": "เลือกราศีเมษ"
+        }
+      }
+    ]
+  }
+}

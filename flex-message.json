@@ -1,0 +1,25 @@
+{
+  "type": "flex",
+  "altText": "ดวงราศีเมษประจำวัน",
+  "contents": {
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "backgroundColor": "#5B3F8C",
+      "contents": [
+        { "type": "text", "text": "ราศีเมษ ✨", "color": "#FFFFFF", "weight": "bold", "size": "xl" }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "md",
+      "contents": [
+        { "type": "text", "text": "ภาพรวม", "weight": "bold", "color": "#5B3F8C" },
+        { "type": "text", "text": "พลังใจดี เหมาะกับการเริ่มสิ่งเล็ก ๆ ที่ค้างไว้", "wrap": true },
+        { "type": "text", "text": "คำทำนายนี้จัดทำขึ้นเพื่อความบันเทิงและเป็นแนวทางทั่วไปเท่านั้น", "wrap": true, "size": "xxs", "color": "#888888" }
+      ]
+    }
+  }
+}

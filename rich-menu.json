@@ -1,0 +1,32 @@
+{
+  "size": { "width": 2500, "height": 1686 },
+  "selected": true,
+  "name": "เมนูหลักดูดวงรายวัน",
+  "chatBarText": "เปิดเมนูดูดวง",
+  "areas": [
+    {
+      "bounds": { "x": 0, "y": 0, "width": 833, "height": 843 },
+      "action": { "type": "message", "label": "ดูดวงรายวัน", "text": "ดูดวงรายวัน" }
+    },
+    {
+      "bounds": { "x": 833, "y": 0, "width": 834, "height": 843 },
+      "action": { "type": "message", "label": "ดูดวงความรัก", "text": "ดูดวงความรัก" }
+    },
+    {
+      "bounds": { "x": 1667, "y": 0, "width": 833, "height": 843 },
+      "action": { "type": "message", "label": "ดูดวงการงาน", "text": "ดูดวงการงาน" }
+    },
+    {
+      "bounds": { "x": 0, "y": 843, "width": 833, "height": 843 },
+      "action": { "type": "message", "label": "ดูดวงการเงิน", "text": "ดูดวงการเงิน" }
+    },
+    {
+      "bounds": { "x": 833, "y": 843, "width": 834, "height": 843 },
+      "action": { "type": "message", "label": "เลขนำโชค", "text": "เลขนำโชค" }
+    },
+    {
+      "bounds": { "x": 1667, "y": 843, "width": 833, "height": 843 },
+      "action": { "type": "message", "label": "วิธีใช้งาน", "text": "วิธีใช้งาน" }
+    }
+  ]
+}
